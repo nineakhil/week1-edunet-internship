@@ -6,8 +6,7 @@ import Cards from '../Components/Cards'
 import Footer from '../Components/Footer'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Routes />
+  <StrictMode>    
     <Header />
     <Search />
     <Cards />
